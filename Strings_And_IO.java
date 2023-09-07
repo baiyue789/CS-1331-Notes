@@ -26,6 +26,9 @@ public class Strings_And_IO{
         //Now the memory for b is pointing to "Mary"
 
         System.out.print(b);
+
+        String c = new String("Mary");
+
         //a is not == b since they are put in two different alocations of memory and the value is not changed since stings are immutable
         /*for (int i = 0; i < 5; ++i) {
             System.out.println(i);
