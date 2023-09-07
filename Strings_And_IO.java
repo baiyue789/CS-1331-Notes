@@ -9,14 +9,24 @@ public class Strings_And_IO{
 //codePoints: UNknown not taught yet
     public static void main(String [] args){
         String a = "Suzzy";
-        Sting b = "Mark";
+        String b = "Mark";
         System.out.println(a);
         System.out.println(b);
         
 
-        a=b;
+        a = b;
+        // two sting cannot be compared
+        
+
         System.out.println(a);
         System.out.println(b);
+        
+        b = "Mary";
+
+        //Now the memory for b is pointing to "Mary"
+
+        System.out.print(b);
+        //a is not == b since they are put in two different alocations of memory and the value is not changed since stings are immutable
         /*for (int i = 0; i < 5; ++i) {
             System.out.println(i);
         }*/
